@@ -22,8 +22,13 @@ This Go application is a terminal-based inventory management tool designed to he
    ```bash
    git clone <repository-url>
    cd inventory-management
-```
-2.
+   ```
+   
+2.Install the required installeents 
 ```bash
 go get github.com/rivo/tview
+```
+3. Run application
+```bash
+go run main.go
 ```
