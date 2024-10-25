@@ -59,6 +59,7 @@ The inventory items are stored in a JSON file (`inventory.json`) with the follow
         "stock": 5
     }
 ]
+```
 ## Code Structure
 
 ### Main Application Logic:
