@@ -31,16 +31,17 @@ This Go application is a terminal-based inventory management tool designed to he
    ```bash
    go run main.go
    ```
-Usage
-Adding an Item:
+## Usage
 
-Enter the item name in the Item Name field.
-Enter the stock quantity in the Stock field.
-Click the Add Item button to save the item.
-Deleting an Item:
+### Adding an Item
+1. Enter the item name in the **Item Name** field.
+2. Enter the stock quantity in the **Stock** field.
+3. Click the **Add Item** button to save the item.
 
-Enter the item ID (index) in the Item ID to delete field.
-Click the Delete Item button to remove it from the inventory.
-Exiting the Application:
+### Deleting an Item
+1. Enter the item ID (index) in the **Item ID to delete** field.
+2. Click the **Delete Item** button to remove it from the inventory.
 
-Click the Exit button to close the application.
+### Exiting the Application
+- Click the **Exit** button to close the application.
+
