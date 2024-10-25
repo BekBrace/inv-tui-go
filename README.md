@@ -3,6 +3,7 @@
 ## Overview
 
 This Go application is a terminal-based inventory management tool designed to help users manage their stock efficiently. Utilizing the `tview` package, it provides a user-friendly Text User Interface (TUI) for adding, viewing, and deleting inventory items. The application supports persistent storage, saving the inventory data in a JSON file.
+
 ![image](https://github.com/user-attachments/assets/eb642eb1-f439-4eff-85ad-00c518f3c321)
 
 ## Features
