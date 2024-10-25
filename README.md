@@ -45,3 +45,39 @@ This Go application is a terminal-based inventory management tool designed to he
 ### Exiting the Application
 - Click the **Exit** button to close the application.
 
+## Inventory Data Structure
+The inventory items are stored in a JSON file (`inventory.json`) with the following structure:
+
+```json
+[
+    {
+        "name": "ItemName",
+        "stock": 10
+    },
+    {
+        "name": "AnotherItem",
+        "stock": 5
+    }
+]
+## Code Structure
+
+### Main Application Logic:
+- `loadInventory()`: Loads inventory data from `inventory.json`.
+- `saveInventory()`: Saves current inventory state to `inventory.json`.
+- `deleteItem(index int)`: Deletes an item from the inventory based on its ID.
+
+### Dependencies:
+- `encoding/json`: For JSON encoding/decoding.
+- `fmt`: For formatted I/O.
+- `log`: For error logging.
+- `os`: For operating system interactions.
+- `strconv`: For string conversion.
+- `github.com/rivo/tview`: For TUI functionality.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
