@@ -18,12 +18,12 @@ This Go application is a terminal-based inventory management tool designed to he
 
 ## Installation
 
-1. Clone the repository:
+   1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd inventory-management
    ```
-   2.Install the required installeents 
+   2. Install the required installeents [the only external dependency you'll need!]
    ```bash
    go get github.com/rivo/tview
    ```
